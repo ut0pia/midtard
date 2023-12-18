@@ -21,7 +21,7 @@ url = "https://www.subber.xyz/midcoin/wallet-collection/3rd-mid-snapshot"  # Rep
 
 # Loop until the URL is available
 while not check_url(url):
-    print("URL is not available or contains a '404, Page Not Found.' message. Waiting for 5 seconds before checking again...")
+    print("URL is not available or contains a '404, Page Not Found.' message. Waiting for 60 seconds before checking again...")
     time.sleep(60)  # Wait for 5 seconds before checking again
 
 # Once the URL is available, play the MP3 music
